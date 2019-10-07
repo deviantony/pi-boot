@@ -18,3 +18,5 @@ service sshd restart
 
 # Password update
 passwd root
+
+exit 0

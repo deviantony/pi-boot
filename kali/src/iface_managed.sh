@@ -2,6 +2,7 @@
 
 if [ "$#" -ne 1 ]; then
     echo "usage: ./iface_monitor <interface>"
+    exit 1
 fi
 
 IFACE=${1}

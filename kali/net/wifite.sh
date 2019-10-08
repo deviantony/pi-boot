@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# https://github.com/derv82/wifite2
+
 export DEBIAN_FRONTEND=noninteractive
 apt install -y build-essential libpcap-dev pixiewps cowpatty libssl-dev libcurl4 libcurl4-openssl-dev
 
